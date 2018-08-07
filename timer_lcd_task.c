@@ -4,10 +4,10 @@ sbit RW=P1^1;
 sbit EN=P1^2;
  void delay(int i)
  {
-    int j,k;
+    int jaw,k;
 	for(k=0;k<i;k++)
 	{
-	for(j=0;j<50;j++)
+	for(jaw=0;jaw<50;jaw++)
 	{
 	TMOD=0x20; 
     TH1=0xF8;
